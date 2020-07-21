@@ -1,0 +1,154 @@
+body {
+    background: rgb(247, 247, 247);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    overflow-x: hidden;
+}
+
+#header {
+    background-color: #05519c;
+    height: 400px;
+
+    .name {
+        color: yellow;
+        margin-top: 30px;
+    }
+
+    .sub-title {
+        margin-top: -5px;
+    }
+
+    .link-service {
+        color: darken(#fff, 10%);
+        letter-spacing: 1px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    .link-service:hover {
+        color: lighten(#fff, 10%);
+        text-decoration: none;
+    }
+
+    .nav {
+        position: absolute;
+        bottom: 72px;
+        border-bottom: solid 1px rgb(103, 116, 189);
+        width: 100%;
+
+        li {
+            border-right: solid 1px rgb(103, 116, 189);
+            text-align: center;
+
+            a {
+                padding: 17px 0px;
+                display: inline-block;
+                letter-spacing: .5px;
+                color: #555;
+
+                font-family: $title-font;
+
+                &:hover {
+                    text-decoration: none;
+                    color: darken(#555, 10%)
+                }
+            }
+        }
+    }
+
+    .top {
+        position: absolute;
+        width: 100%;
+    }
+
+    .me {
+        width: 380px;
+        border: solid 12px #fff;
+        height: 440px;
+    }
+}
+
+.title {
+
+    font-size: 50px;
+    font-family: $title-font;
+}
+
+.title-sm {
+    font-size: 30px;
+}
+
+.sub-title {
+    color: #eee;
+    font-family: $title-font;
+    letter-spacing: .5;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.about {
+    margin-top: 200px;
+    padding-bottom: 40px;
+
+}
+
+.experience {
+    padding: 40px 0;
+    background-color: #EBF0F6;
+
+}
+
+.education {
+    background-color: #F4F9FF;
+    padding: 40px 0;
+
+    .ed {
+        background-color: #fff;
+        margin: 20px;
+        padding: 30px 50px;
+    }
+}
+
+.skills {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.portfolio {
+    background-color: #ECF1F7;
+    padding: 40px 0;
+
+    img {
+        width: 100%;
+        background: #fff;
+        padding: 11px;
+    }
+}
+
+.contact {
+    background-color: rgb(224, 221, 32);
+    padding: 40px 0;
+
+    .form-control {
+        background-color: rgb(187, 184, 16);
+        color: #fff;
+        border: solid 1px rgb(165, 162, 5);
+    }
+
+    .btn-send {
+        background-color: #333;
+        border: solid 1px darken(#333, 20%);
+
+        &:hover {
+            color: #fff;
+            background-color: darken(#333, 10%);
+        }
+    }
+}
+
+#footer {
+    font-size: 14px;
+    padding: 20px 0;
+    color: #777;
+}
